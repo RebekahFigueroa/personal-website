@@ -1,3 +1,4 @@
+import AttachFileRoundedIcon from "@mui/icons-material/AttachFileRounded";
 import HomeRoundedIcon from "@mui/icons-material/HomeRounded";
 import {
   AppBar,
@@ -18,6 +19,7 @@ function NavBar() {
           size="large"
           edge="start"
           color="inherit"
+          fontSize="inherit"
           aria-label="Home button"
         >
           <HomeRoundedIcon />
@@ -30,6 +32,14 @@ function NavBar() {
           <Button color="inherit">Portfolio</Button>
           <Button color="inherit">Blog</Button>
           <Button color="inherit">Contact Me</Button>
+          <Button
+            color="inherit"
+            variant="outlined"
+            size="Large"
+            startIcon={<AttachFileRoundedIcon />}
+          >
+            Resume
+          </Button>
         </Stack>
       </Toolbar>
     </AppBar>

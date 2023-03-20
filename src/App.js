@@ -1,19 +1,20 @@
+import React from "react";
+import Blog from "./Blog/Blog";
+import ContactMe from "./ContactMe/ContatctMe";
+import Experience from "./Experience/Experience";
+import Introduction from "./Introduction/Introduction";
+import NavBar from "./NavBar/NavBar";
+import Portfolio from "./Portfolio/Portfolio";
+
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <NavBar />
+      <Introduction />
+      <Experience />
+      <Portfolio />
+      <Blog />
+      <ContactMe />
     </div>
   );
 }

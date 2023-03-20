@@ -1,3 +1,4 @@
+import { Box } from "@mui/material";
 import React from "react";
 import Blog from "./Blog/Blog";
 import ContactMe from "./ContactMe/ContatctMe";
@@ -10,11 +11,13 @@ function App() {
   return (
     <div>
       <NavBar />
-      <Introduction />
-      <Experience />
-      <Portfolio />
-      <Blog />
-      <ContactMe />
+      <Box sx={{ height: "calc(100vh - 64px)", marginTop: "64px" }}>
+        <Introduction />
+        <Experience />
+        <Portfolio />
+        <Blog />
+        <ContactMe />
+      </Box>
     </div>
   );
 }

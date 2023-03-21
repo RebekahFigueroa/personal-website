@@ -1,45 +1,24 @@
-import AttachFileRoundedIcon from "@mui/icons-material/AttachFileRounded";
-import HomeRoundedIcon from "@mui/icons-material/HomeRounded";
-import {
-  AppBar,
-  Button,
-  IconButton,
-  Stack,
-  Toolbar,
-  Typography,
-} from "@mui/material";
-
+import { AppBar, Stack, Toolbar, Typography } from "@mui/material";
 import React from "react";
+import HomeButton from "./HomeButton";
+import NavItem from "./NavItem";
+import ResumeButton from "./ResumeButton";
 
 function NavBar() {
   return (
     <AppBar>
       <Toolbar>
-        <IconButton
-          size="large"
-          edge="start"
-          color="inherit"
-          fontSize="inherit"
-          aria-label="Home button"
-        >
-          <HomeRoundedIcon />
-        </IconButton>
+        <HomeButton />
         <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
           Rebekah Figueroa
         </Typography>
         <Stack direction="row" spacing={2}>
-          <Button color="inherit">Experience</Button>
-          <Button color="inherit">Portfolio</Button>
-          <Button color="inherit">Blog</Button>
-          <Button color="inherit">Contact Me</Button>
-          <Button
-            color="inherit"
-            variant="outlined"
-            size="Large"
-            startIcon={<AttachFileRoundedIcon />}
-          >
-            Resume
-          </Button>
+          <NavItem to="/experience" label="Experience" />
+          <NavItem to="/portfolio" label="Portfolio" />
+          <NavItem to="/blog" label="Blog" />
+          <NavItem to="/contact-me" label="Contact Me" />
+
+          <ResumeButton />
         </Stack>
       </Toolbar>
     </AppBar>

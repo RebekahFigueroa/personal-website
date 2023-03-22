@@ -1,4 +1,4 @@
-import { Box, Grid, Typography } from "@mui/material";
+import { Box, Button, Grid, Typography } from "@mui/material";
 import React from "react";
 
 import image from "./placeholder-photo.png";
@@ -24,6 +24,12 @@ function Home() {
           tristique non. Donec quis imperdiet enim. Duis malesuada nisl eu nibh
           convallis, blandit iaculis lectus condimentum.
         </Typography>
+        <Box sx={{ marginTop: "1rem" }}>
+          <Button variant="contained" sx={{ marginRight: "1rem" }}>
+            LinkedIn
+          </Button>
+          <Button variant="contained">GitHub</Button>
+        </Box>
       </Grid>
       <Grid item xs={3} sx={{ display: "flex", alignItems: "center" }}>
         <Box sx={{ margin: "20px" }}>

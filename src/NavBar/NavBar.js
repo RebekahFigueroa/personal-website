@@ -6,7 +6,7 @@ import ResumeButton from "./ResumeButton";
 
 function NavBar() {
   return (
-    <AppBar>
+    <AppBar position="sticky">
       <Toolbar>
         <HomeButton />
         <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>

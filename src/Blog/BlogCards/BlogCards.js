@@ -1,3 +1,4 @@
+import { Button, CardActions } from "@mui/material";
 import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
@@ -44,6 +45,17 @@ function BlogCards() {
           libero fermentum eu.
         </Typography>
       </CardContent>
+      <CardActions>
+        <Button
+          size="small"
+          sx={{ textDecoration: "none" }}
+          as="a"
+          href="https://medium.com/@figueroarebekah/a-beginners-guide-to-apis-15fdf8fc48a1"
+          target="_blank"
+        >
+          Learn More
+        </Button>
+      </CardActions>
     </Card>
   );
 }

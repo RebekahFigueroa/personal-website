@@ -27,15 +27,10 @@ function Home() {
             marginTop: "2rem",
           }}
         >
-          A chemist turned product manager who has been working in the product
-          development space for over 6 years. I specialize in first-to-market
-          launches with an focus in the consumer product goods space. After
-          transitioning to the tech space as a PM, I missed the satisfaction
-          that came from seeing my products come to life through my own efforts.
-          This has led me to the next stage of my career journey learning
-          software engineering to continue to pursue my passion for development.
-          Currently, I am studying software engineering full time at the
-          Flatiron bootcamp.
+          Formulation chemist, product manager, and now software engineer. I am
+          passionate about solving meaningful problems, developing products that
+          delight consumers, and making a positive social impact on the
+          communities around me.
         </Typography>
         <Box sx={{ marginTop: "3rem" }}>
           <Button

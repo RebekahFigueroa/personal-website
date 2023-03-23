@@ -8,6 +8,8 @@ const ResumeButton = () => {
       variant="outlined"
       size="Large"
       startIcon={<AttachFileRoundedIcon />}
+      href="/assets/Rebekah_Figueroa_Resume_Website.docx.pdf"
+      target="blank"
     >
       Resume
     </Button>

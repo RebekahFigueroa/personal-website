@@ -70,7 +70,7 @@
          "industry" : "Education", 
          "skills" : ["HTML", "CSS", "JavaScript", "React.js", "Material UI"] , 
          "companyDescription" : "Software engineering bootcamp split into 5 phases, designed to give students the core skills needed to break into the tech industry." , 
-        "accomplishments" : []
+        "accomplishments" : ["Phase 1: Learned the fundamentals of JavaScript and how to create a single-page application (Core skills learned: CSS/ HTML, JS, APIs, Data types, and Async data retreival", "Phase 2: Learned about React, component heiarchy, and client- side routing (Core skills learned: React, Material UI"]
     }
     
     ] ,

@@ -11,10 +11,10 @@ function Experience() {
       sx={{ minHeight: "100%", display: "flex", alignItems: "center" }}
     >
       <Grid item xs={1}></Grid>
-      <Grid item xs={5}>
+      <Grid item xs={4}>
         <ExperienceText />
       </Grid>
-      <Grid item xs={5} sx={{ display: "flex", alignItems: "center" }}>
+      <Grid item xs={6} sx={{ display: "flex", alignItems: "center" }}>
         <TimelineStructure />
       </Grid>
     </Grid>

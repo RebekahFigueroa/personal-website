@@ -9,7 +9,7 @@ import { List, ListItem } from "@mui/material";
 import Typography from "@mui/material/Typography";
 import React from "react";
 
-function TimelineCard({ date, jobTitle, companyName }) {
+function TimelineCard({ startDateYear, jobTitle, companyName }) {
   const [isExpanded, setIsExpanded] = React.useState(false);
 
   const handleExpandClick = () => {
@@ -18,14 +18,18 @@ function TimelineCard({ date, jobTitle, companyName }) {
 
   if (isExpanded === true) {
     return (
-      <TimelineItem onClick={handleExpandClick}>
+      <TimelineItem sx={{ cursor: "pointer" }} onClick={handleExpandClick}>
         <TimelineOppositeContent
           sx={{ m: "auto 0" }}
           align="right"
           variant="body2"
           color="text.secondary"
         >
-          {date}
+          {startDateYear}
+          <Typography color="text.primary">
+            October 2021 – September 2022
+          </Typography>
+          <Typography>Remote- McAllen, TX</Typography>
         </TimelineOppositeContent>
         <TimelineSeparator>
           <TimelineConnector />
@@ -89,14 +93,14 @@ function TimelineCard({ date, jobTitle, companyName }) {
     );
   } else {
     return (
-      <TimelineItem onClick={handleExpandClick}>
+      <TimelineItem sx={{ cursor: "pointer" }} onClick={handleExpandClick}>
         <TimelineOppositeContent
           sx={{ m: "auto 0" }}
           align="right"
           variant="body2"
           color="text.secondary"
         >
-          {date}
+          {startDateYear}
         </TimelineOppositeContent>
         <TimelineSeparator>
           <TimelineConnector />

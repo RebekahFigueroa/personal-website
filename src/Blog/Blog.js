@@ -1,8 +1,19 @@
 import { Box, Typography } from "@mui/material";
-import React from "react";
-import BlogCards from "./BlogCards/BlogCards";
+import React, { useEffect, useState } from "react";
+import BlogCard from "./BlogCard/BlogCard";
 
-function Blog() {
+const Blog = () => {
+  const [blogData, setBlogData] = useState([]);
+
+  useEffect(() => {
+    const fetchBlogs = async () => {
+      fetch("http://localhost:3001/blogs")
+        .then((response) => response.json())
+        .then((blogs) => setBlogData(blogs));
+    };
+    fetchBlogs();
+  }, []);
+
   return (
     <>
       <Box
@@ -27,13 +38,13 @@ function Blog() {
             mb: 4,
           }}
         >
-          <BlogCards />
-          <BlogCards />
-          <BlogCards />
+          {blogData.map((blog) => (
+            <BlogCard key={blog.id} {...blog} />
+          ))}
         </Box>
       </Box>
     </>
   );
-}
+};
 
 export default Blog;

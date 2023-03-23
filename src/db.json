@@ -1,29 +1,29 @@
 {
-    "Experience" :   [ 
-    {
-    "id": 1, 
-    "jobTitle" : "Graduated with B.S. in Chemistry", 
-    "companyName" : "Purdue University" , 
-     "startDateYear" : 2016,
-    "fullDate" : "August 2012- May 2016", 
-    "location" : "West Lafayette, IN" , 
-    "industry" : "Education", 
-    "skills" : [] , 
-    "companyDescription" : "Undergraduate research was focused on plant cell wall research to increase biofuel plant yields." , 
-    "accomplishments" : ["Undergradaute Researcher: Carpita Lab (Feb 2013 - Apr 2016)", "Society for Advancement of Chicanos and Native Americans in Science: President (Jan 2013-May 2016)", "Purdue Student Union Board: Traditional Committee (August 2012-May 2016)", "Women in Science Program (August 2012-May 2016)", "Multicultural Science Program (August 2012-May 2016)", "President's Leadership Class (August 2012-May 2013)"]
-    }, 
-    {
-    "id": 2, 
-     "jobTitle" : "Process and Formulation Researcher", 
-     "companyName" : "Procter & Gamble" , 
-     "startDateYear" : 2016,
-     "fullDate" : "May 2016 – December 2019", 
-     "location" : "Cincinnati, OH" , 
-     "industry" : "Consumer Product Goods", 
-     "skills" : ["Consumer Product Testing", "Good Manufacturing Practice (GMP)", "Design of Experiments (DOE)", "Formulation Chemistry", " Stability Testing", "Drug Development", "Process Engineering", "Electronic Lab Notebooks", "Quality Assurance" ] , 
-     "companyDescription" : "P&G is a top global consumer product goods company, where I worked on brands such as Head & Shoulders and Vicks" , 
-    "accomplishments" : ["Led formal stability placements, managing cross-functional teams, and developing metrics for success while reducing scale-up timeline by 50% ", "Designed and executed DOX experimentation to deliver a product with 400% improved active performance while reducing cost of formula by 75%", "Utilized A/B testing and large-scale consumer studies to understand consumer needs and develop formulas that broke from baseline by +14", "Patents: 'Compositions having enhanced deposition of surfactant soluble antidandruff agents', 'Compositions with a thickening polymer', 'Compositions with anionic and cationic polymers'"]
-    }, 
+    "experience" :   [ 
+        {
+        "id": 1, 
+        "jobTitle" : "Graduated with B.S. in Chemistry", 
+        "companyName" : "Purdue University" , 
+        "startDateYear" : 2016,
+        "fullDate" : "August 2012- May 2016", 
+        "location" : "West Lafayette, IN" , 
+        "industry" : "Education", 
+        "skills" : [] , 
+        "companyDescription" : "Undergraduate research was focused on plant cell wall research to increase biofuel plant yields." , 
+        "accomplishments" : ["Undergradaute Researcher: Carpita Lab (Feb 2013 - Apr 2016)", "Society for Advancement of Chicanos and Native Americans in Science: President (Jan 2013-May 2016)", "Purdue Student Union Board: Traditional Committee (August 2012-May 2016)", "Women in Science Program (August 2012-May 2016)", "Multicultural Science Program (August 2012-May 2016)", "President's Leadership Class (August 2012-May 2013)"]
+        }, 
+        {
+        "id": 2, 
+        "jobTitle" : "Process and Formulation Researcher", 
+        "companyName" : "Procter & Gamble" , 
+        "startDateYear" : 2016,
+        "fullDate" : "May 2016 – December 2019", 
+        "location" : "Cincinnati, OH" , 
+        "industry" : "Consumer Product Goods", 
+        "skills" : ["Consumer Product Testing", "Good Manufacturing Practice (GMP)", "Design of Experiments (DOE)", "Formulation Chemistry", " Stability Testing", "Drug Development", "Process Engineering", "Electronic Lab Notebooks", "Quality Assurance" ] , 
+        "companyDescription" : "P&G is a top global consumer product goods company, where I worked on brands such as Head & Shoulders and Vicks" , 
+        "accomplishments" : ["Led formal stability placements, managing cross-functional teams, and developing metrics for success while reducing scale-up timeline by 50% ", "Designed and executed DOX experimentation to deliver a product with 400% improved active performance while reducing cost of formula by 75%", "Utilized A/B testing and large-scale consumer studies to understand consumer needs and develop formulas that broke from baseline by +14", "Patents: 'Compositions having enhanced deposition of surfactant soluble antidandruff agents', 'Compositions with a thickening polymer', 'Compositions with anionic and cationic polymers'"]
+        }, 
     {
         "id": 3, 
          "jobTitle" : "Product Research & Development Analyst", 
@@ -75,7 +75,7 @@
     
     ] ,
     
-    "Portfolio" : [
+    "portfolio" : [
         {
             "id" : 1, 
             "projectTitle" : "Personal Website" ,
@@ -83,7 +83,7 @@
             "pageLink": "", 
             "projectDescription" : "Personal website that highlights my career accomplishments.", 
             "languagesUsed": ["React", "Material UI", "json.db Server"], 
-            "projectImage": ""
+            "projectImage": "src/images/portfolio_placeholder.jpg"
         }, 
         {
             "id" : 2, 
@@ -92,17 +92,17 @@
             "pageLink": "", 
             "projectDescription" : "This is a simple way to virtually track the growing collection of physical manga I have on my shelf. It is a digital library that pulls information from myAnimeList using the Jikan API to easily search and store content. ", 
             "languagesUsed": ["HTML", "CSS", "JavaScript", "Jikan API", "json.db Server"], 
-            "projectImage": ""
+            "projectImage": "src/images/portfolio_VirtualMangaLibrary.png"
         }
     ] ,
 
-    "Blog" : [
+    "blogs" : [
         {
             "id": 1, 
             "blogTitle": "A Beginner’s Guide To APIs", 
             "datePublished": "January 25th, 2023",
-            "blogImage": "", 
-            "description":"I recently started working on my first personal project for my software engineering bootcamp. It required a lot of data, and I mean A LOT. I wanted to find a way to virtually store and view all of the books I had in my library, including data such as title, author, genre, etc. Sure, I could build it all out myself, but that would have taken forever. What’s the point of learning to program if you can’t even optimize? We want to make our lives easy! So I went down a rabbit hole and discovered there are many open source libraries full of all the data you could dream of, if you can just figure out how to navigate them of course!", 
+            "blogImage": "/images/blog_APIs.png", 
+            "blogDescription":"I recently started working on my first personal project for my software engineering bootcamp. It required a lot of data, and I mean A LOT. I wanted to find a way to virtually store and view all of the books I had in my library, including data such as title, author, genre, etc. Sure, I could build it all out myself, but that would have taken forever. What’s the point of learning to program if you can’t even optimize? We want to make our lives easy!", 
             "blogLink": "https://medium.com/@figueroarebekah/a-beginners-guide-to-apis-15fdf8fc48a1"
         }
     ]

@@ -19,7 +19,7 @@ function ContactMe() {
             flexDirection: "column",
             alignItems: "center",
             justifyContent: "center",
-            marginTop: "3rem",
+            marginTop: "7rem",
           }}
         >
           <Typography

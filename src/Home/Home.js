@@ -14,11 +14,15 @@ function Home() {
       <Grid item xs={7}>
         <Typography sx={{ fontSize: "3rem" }}>Hi, welcome! </Typography>
         <Typography sx={{ fontSize: "5rem" }}>I'm Rebekah Figueroa,</Typography>
+        <Typography sx={{ fontSize: "1rem", color: "text.secondary" }}>
+          (She/Her) | (Ruh-beh-kuh Fee-ga-ro-ah)
+        </Typography>
         <Typography
           sx={{
             fontSize: "1rem",
             color: "text.secondary",
             marginRight: "5rem",
+            marginTop: "2rem",
           }}
         >
           A chemist turned product manager who has been working in the product

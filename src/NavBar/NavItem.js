@@ -7,8 +7,7 @@ const NavItem = ({ to, label }) => {
       to={to}
       style={(isActive) => ({
         textDecoration: "none",
-        color: isActive ? "white" : "inherit",
-        backgroundColor: isActive ? "#1565c0" : "inherit",
+        color: isActive ? "#90caf9" : "inherit",
       })}
     >
       <Button color="inherit">{label}</Button>

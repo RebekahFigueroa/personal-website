@@ -16,7 +16,7 @@ function NavBar() {
           <NavItem to="/experience" label="Experience" />
           <NavItem to="/portfolio" label="Portfolio" />
           <NavItem to="/blog" label="Blog" />
-          <NavItem to="/contact-me" label="Contact Me" />
+          <NavItem to="/contact-me" label="Contact" />
 
           <ResumeButton />
         </Stack>

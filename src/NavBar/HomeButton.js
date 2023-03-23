@@ -8,7 +8,7 @@ const HomeButton = () => {
       to="/home"
       style={(isActive) => ({
         textDecoration: "none",
-        color: isActive ? "#1565c0" : "inherit",
+        color: isActive ? "#90caf9" : "inherit",
       })}
     >
       <IconButton

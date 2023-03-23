@@ -12,7 +12,9 @@ function Home() {
     >
       <Grid item xs={1}></Grid>
       <Grid item xs={7}>
-        <Typography sx={{ fontSize: "3rem" }}>Hi, welcome! </Typography>
+        <Typography sx={{ fontSize: "3rem", color: "text.secondary" }}>
+          Hi, welcome!{" "}
+        </Typography>
         <Typography sx={{ fontSize: "5rem" }}>I'm Rebekah Figueroa,</Typography>
         <Typography sx={{ fontSize: "1rem", color: "text.secondary" }}>
           (She/Her) | (Ruh-beh-kuh Fee-ga-ro-ah)
@@ -36,10 +38,36 @@ function Home() {
           Flatiron bootcamp.
         </Typography>
         <Box sx={{ marginTop: "2rem" }}>
-          <Button variant="contained" sx={{ marginRight: "1rem" }}>
+          <Button
+            variant="contained"
+            sx={{
+              marginRight: "1rem",
+              textDecoration: "none",
+              paddingTop: "1rem",
+              paddingBottom: "1rem",
+            }}
+            size="large"
+            as="a"
+            href="https://www.linkedin.com/in/rebekah-figueroa/"
+            target="_blank"
+          >
             LinkedIn
           </Button>
-          <Button variant="contained">GitHub</Button>
+          <Button
+            variant="contained"
+            sx={{
+              marginRight: "1rem",
+              textDecoration: "none",
+              paddingTop: "1rem",
+              paddingBottom: "1rem",
+            }}
+            size="large"
+            as="a"
+            href="https://github.com/RebekahFigueroa"
+            target="_blank"
+          >
+            GitHub
+          </Button>
         </Box>
       </Grid>
       <Grid item xs={3} sx={{ display: "flex", alignItems: "center" }}>

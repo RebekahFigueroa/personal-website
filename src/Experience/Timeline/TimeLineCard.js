@@ -39,27 +39,49 @@ function TimelineCard({ date, jobTitle, companyName }) {
             {jobTitle}
           </Typography>
           <Typography color="text.secondary">{companyName}</Typography>
-          <Typography>Lorem ipsum dolor sit amet</Typography>
-          <List>
-            <ListItem sx={{ listStyleType: "disc" }}>
-              n ultricies at augue vitae finibus. Ut dignissim placerat risus
-              rhoncus pulvinar. Integer scelerisque ut risus ut gravida.
+
+          <Typography variant="caption">
+            FactoryFix is a B2B career platform connecting manufacturing
+            companies to skilled workers for on-demand labor needs{" "}
+          </Typography>
+          <List sx={{ listStyleType: "disc", color: "text.secondary" }}>
+            <ListItem
+              disablePadding
+              sx={{ display: "list-item", fontSize: "12px" }}
+            >
+              Oversaw product strategy for customer- facing business, focusing
+              on increasing retention and in-app activity
             </ListItem>
-            <ListItem>
-              n ultricies at augue vitae finibus. Ut dignissim placerat risus
-              rhoncus pulvinar. Integer scelerisque ut risus ut gravida.
+            <ListItem
+              disablePadding
+              sx={{ display: "list-item", fontSize: "12px" }}
+            >
+              Increased customer to candidate SMS in-app communications sent by
+              133% in one month
             </ListItem>
-            <ListItem>
-              n ultricies at augue vitae finibus. Ut dignissim placerat risus
-              rhoncus pulvinar. Integer scelerisque ut risus ut gravida.
+            <ListItem
+              disablePadding
+              sx={{ display: "list-item", fontSize: "12px" }}
+            >
+              Optimized internal customer service experience to allocate 15%
+              more of time-focused resources to customers
             </ListItem>
-            <ListItem>
-              n ultricies at augue vitae finibus. Ut dignissim placerat risus
-              rhoncus pulvinar. Integer scelerisque ut risus ut gravida.
+            <ListItem
+              disablePadding
+              sx={{ display: "list-item", fontSize: "12px" }}
+            >
+              Identified areas of opportunity in increasing user activity,
+              leading to a 10% increase in activity in 1 month after
+              implementation of proposed short-term roadmap
             </ListItem>
-            <ListItem>
-              n ultricies at augue vitae finibus. Ut dignissim placerat risus
-              rhoncus pulvinar. Integer scelerisque ut risus ut gravida.
+            <ListItem
+              disablePadding
+              sx={{ display: "list-item", fontSize: "12px" }}
+            >
+              Led an engineering team of 8 developers and a UX designer to
+              improve activity on our ATS candidate pipeline, SMS messaging
+              tool, talent search network, customer notifications, and dashboard
+              features
             </ListItem>
           </List>
         </TimelineContent>

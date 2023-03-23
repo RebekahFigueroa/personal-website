@@ -7,6 +7,11 @@ function TimelineStructure() {
     <Timeline position="alternate">
       <TimelineCard
         date="May 2016"
+        jobTitle="Graduated with B.A. of Chemistry "
+        companyName="Purdue University"
+      />
+      <TimelineCard
+        date="May 2016"
         jobTitle="Process and Formulation Researcher "
         companyName="Procter & Gamble"
       />

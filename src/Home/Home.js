@@ -37,7 +37,7 @@ function Home() {
           Currently, I am studying software engineering full time at the
           Flatiron bootcamp.
         </Typography>
-        <Box sx={{ marginTop: "2rem" }}>
+        <Box sx={{ marginTop: "3rem" }}>
           <Button
             variant="contained"
             sx={{

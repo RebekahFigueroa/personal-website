@@ -33,6 +33,8 @@ function Portfolio() {
             display: "flex",
             alignItems: "center",
             marginRight: "3rem",
+            paddingTop: "1rem",
+            paddingBottom: "1rem",
           }}
         >
           Software Development
@@ -43,6 +45,8 @@ function Portfolio() {
             display: "flex",
             alignItems: "center",
             marginRight: "3rem",
+            paddingTop: "1rem",
+            paddingBottom: "1rem",
           }}
         >
           Product Management
@@ -53,6 +57,8 @@ function Portfolio() {
             display: "flex",
             alignItems: "center",
             marginRight: "3rem",
+            paddingTop: "1rem",
+            paddingBottom: "1rem",
           }}
         >
           Formulation Development
@@ -65,6 +71,7 @@ function Portfolio() {
           flexDirection: "column",
           alignItems: "center",
           justifyContent: "center",
+          marginTop: "2rem",
         }}
       >
         <Box

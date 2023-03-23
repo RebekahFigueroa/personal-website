@@ -1,6 +1,6 @@
 import GitHubIcon from "@mui/icons-material/GitHub";
 import OpenInNewIcon from "@mui/icons-material/OpenInNew";
-import { Chip } from "@mui/material";
+import { Chip, Link } from "@mui/material";
 import Card from "@mui/material/Card";
 import CardActions from "@mui/material/CardActions";
 import CardContent from "@mui/material/CardContent";
@@ -8,13 +8,29 @@ import CardMedia from "@mui/material/CardMedia";
 import Typography from "@mui/material/Typography";
 import { Box } from "@mui/system";
 import React from "react";
-import image from "./placeholderPhoto.jpg";
 
-function PortfolioCards() {
+const PortfolioCards = ({
+  projectTitle,
+  githubLink,
+  pageLink,
+  projectDescription,
+  languagesUsed,
+  projectImage,
+}) => {
   return (
-    <Card sx={{ maxWidth: 345 }}>
-      <CardMedia sx={{ height: 140 }} image={image} title="Personal Website" />
-
+    <Card
+      sx={{
+        maxWidth: 345,
+        height: "25rem",
+        display: "flex",
+        flexDirection: "column",
+      }}
+    >
+      <CardMedia
+        sx={{ height: 200 }}
+        image={projectImage}
+        title="Personal Website"
+      />
       <CardContent>
         <Box sx={{ display: "flex", justifyContent: "space-between" }}>
           <Typography
@@ -23,25 +39,29 @@ function PortfolioCards() {
             component="div"
             sx={{ rightMargin: "2rem" }}
           >
-            Personal Website
+            {projectTitle}
           </Typography>
           <Box>
-            <GitHubIcon />
-            <OpenInNewIcon />
+            <Link href={githubLink} target="_blank" sx={{ color: "white" }}>
+              <GitHubIcon />
+            </Link>
+            <Link href={pageLink} target="_blank" sx={{ color: "white" }}>
+              <OpenInNewIcon />
+            </Link>
           </Box>
         </Box>
 
         <Typography variant="body2" color="text.secondary">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
-          fringilla erat ut tellus accumsan tempus.
+          {projectDescription}
         </Typography>
       </CardContent>
-      <CardActions>
-        <Chip label="React" />
-        <Chip label="MaterialUI" />
+      <CardActions sx={{ marginTop: "auto" }}>
+        {languagesUsed.map((language) => (
+          <Chip color="primary" label={language} />
+        ))}
       </CardActions>
     </Card>
   );
-}
+};
 
 export default PortfolioCards;

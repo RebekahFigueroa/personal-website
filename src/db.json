@@ -1,5 +1,5 @@
 {
-    "experience" :   [ 
+    "experiences" :   [ 
         {
         "id": 1, 
         "jobTitle" : "Graduated with B.S. in Chemistry", 
@@ -61,7 +61,7 @@
         "accomplishments" : ["Oversaw product strategy for customer- facing business, focusing on increasing retention and in-app activity", "Increased customer to candidate SMS in-app communications sent by 133% in one month", "Optimized internal customer service experience to allocate 15% more of time-focused resources to customers", "Identified areas of opportunity in increasing user activity, leading to a 10% increase in activity in 1 month after implementation of proposed short-term roadmap", "Led an engineering team of 8 developers and a UX designer to improve activity on our ATS candidate pipeline, SMS messaging tool, talent search network, customer notifications, and dashboard features"]
     }, 
     {
-        "id": 5, 
+        "id": 6, 
          "jobTitle" : "Software Engineering Student", 
          "companyName" : "Flatiron School" , 
          "startDateYear" : 2022,
@@ -75,24 +75,26 @@
     
     ] ,
     
-    "portfolio" : [
+    "portfolios" : [
         {
             "id" : 1, 
             "projectTitle" : "Personal Website" ,
+            "type" : "Software Development", 
             "githubLink" : "https://github.com/RebekahFigueroa/personal-website", 
             "pageLink": "", 
-            "projectDescription" : "Personal website that highlights my career accomplishments.", 
+            "projectDescription" : "Personal website that highlights my career accomplishments. This is my first project using Material UI and React.", 
             "languagesUsed": ["React", "Material UI", "json.db Server"], 
-            "projectImage": "src/images/portfolio_placeholder.jpg"
+            "projectImage": "/images/portfolio_placeholder.jpg"
         }, 
         {
             "id" : 2, 
             "projectTitle" : "Virtual Manga Library" ,
+            "type" : "Software Development", 
             "githubLink" : "https://github.com/RebekahFigueroa/Virtual-Manga-Library", 
             "pageLink": "", 
-            "projectDescription" : "This is a simple way to virtually track the growing collection of physical manga I have on my shelf. It is a digital library that pulls information from myAnimeList using the Jikan API to easily search and store content. ", 
-            "languagesUsed": ["HTML", "CSS", "JavaScript", "Jikan API", "json.db Server"], 
-            "projectImage": "src/images/portfolio_VirtualMangaLibrary.png"
+            "projectDescription" : "This is a digital library that pulls information from myAnimeList using the Jikan API to easily search and store content. ", 
+            "languagesUsed": ["JavaScript", "Jikan API", "json.db Server"], 
+            "projectImage": "/images/portfolio_VirtualMangaLibrary.png"
         }
     ] ,
 

@@ -9,7 +9,15 @@ import { List, ListItem } from "@mui/material";
 import Typography from "@mui/material/Typography";
 import React from "react";
 
-function TimelineCard({ startDateYear, jobTitle, companyName }) {
+function TimelineCard({
+  startDateYear,
+  jobTitle,
+  companyName,
+  fullDate,
+  location,
+  companyDescription,
+  accomplishments,
+}) {
   const [isExpanded, setIsExpanded] = React.useState(false);
 
   const handleExpandClick = () => {
@@ -26,10 +34,8 @@ function TimelineCard({ startDateYear, jobTitle, companyName }) {
           color="text.secondary"
         >
           {startDateYear}
-          <Typography color="text.primary">
-            October 2021 – September 2022
-          </Typography>
-          <Typography>Remote- McAllen, TX</Typography>
+          <Typography color="text.primary">{fullDate}</Typography>
+          <Typography>{location}</Typography>
         </TimelineOppositeContent>
         <TimelineSeparator>
           <TimelineConnector />
@@ -44,49 +50,16 @@ function TimelineCard({ startDateYear, jobTitle, companyName }) {
           </Typography>
           <Typography color="text.secondary">{companyName}</Typography>
 
-          <Typography variant="caption">
-            FactoryFix is a B2B career platform connecting manufacturing
-            companies to skilled workers for on-demand labor needs{" "}
-          </Typography>
+          <Typography variant="caption">{companyDescription}</Typography>
           <List sx={{ listStyleType: "disc", color: "text.secondary" }}>
-            <ListItem
-              disablePadding
-              sx={{ display: "list-item", fontSize: "12px" }}
-            >
-              Oversaw product strategy for customer- facing business, focusing
-              on increasing retention and in-app activity
-            </ListItem>
-            <ListItem
-              disablePadding
-              sx={{ display: "list-item", fontSize: "12px" }}
-            >
-              Increased customer to candidate SMS in-app communications sent by
-              133% in one month
-            </ListItem>
-            <ListItem
-              disablePadding
-              sx={{ display: "list-item", fontSize: "12px" }}
-            >
-              Optimized internal customer service experience to allocate 15%
-              more of time-focused resources to customers
-            </ListItem>
-            <ListItem
-              disablePadding
-              sx={{ display: "list-item", fontSize: "12px" }}
-            >
-              Identified areas of opportunity in increasing user activity,
-              leading to a 10% increase in activity in 1 month after
-              implementation of proposed short-term roadmap
-            </ListItem>
-            <ListItem
-              disablePadding
-              sx={{ display: "list-item", fontSize: "12px" }}
-            >
-              Led an engineering team of 8 developers and a UX designer to
-              improve activity on our ATS candidate pipeline, SMS messaging
-              tool, talent search network, customer notifications, and dashboard
-              features
-            </ListItem>
+            {accomplishments.map((accomplishment) => (
+              <ListItem
+                disablePadding
+                sx={{ display: "list-item", fontSize: "12px" }}
+              >
+                {accomplishment}
+              </ListItem>
+            ))}
           </List>
         </TimelineContent>
       </TimelineItem>

@@ -1,8 +1,19 @@
 import { Box, Button, Typography } from "@mui/material";
-import React from "react";
+import React, { useEffect, useState } from "react";
 import PortfolioCards from "./PortfolioCards";
 
-function Portfolio() {
+const Portfolio = () => {
+  const [portfolioData, setPortfolioData] = useState([]);
+
+  useEffect(() => {
+    const fetchPortfolios = async () => {
+      fetch("http://localhost:3001/portfolios")
+        .then((response) => response.json())
+        .then((portfolios) => setPortfolioData(portfolios));
+    };
+    fetchPortfolios();
+  }, []);
+
   return (
     <>
       <Box>
@@ -82,25 +93,13 @@ function Portfolio() {
             mb: 4,
           }}
         >
-          <PortfolioCards />
-          <PortfolioCards />
-          <PortfolioCards />
-        </Box>
-
-        <Box
-          sx={{
-            width: "80%",
-            display: "flex",
-            justifyContent: "space-evenly",
-          }}
-        >
-          <PortfolioCards />
-          <PortfolioCards />
-          <PortfolioCards />
+          {portfolioData.map((portfolio) => (
+            <PortfolioCards key={portfolio.id} {...portfolio} />
+          ))}
         </Box>
       </Box>
     </>
   );
-}
+};
 
 export default Portfolio;

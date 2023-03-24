@@ -1,4 +1,4 @@
-import { Box, Grid, TextField } from "@mui/material";
+import { Box, Button, Grid, TextField } from "@mui/material";
 import React from "react";
 
 const SuggestAProjectForm = () => {
@@ -32,6 +32,14 @@ const SuggestAProjectForm = () => {
             defaultValue="Add details here"
           />
         </Grid>
+        <Button
+          variant="outlined"
+          color="inherit"
+          size="large"
+          sx={{ marginTop: "1rem", marginLeft: "7px" }}
+        >
+          Submit
+        </Button>
       </Grid>
     </Box>
   );

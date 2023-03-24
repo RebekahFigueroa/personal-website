@@ -1,160 +1,224 @@
 {
-    "experiences" :   [ 
-        {
-        "id": 1, 
-        "jobTitle" : "Graduated with B.S. in Chemistry", 
-        "companyName" : "Purdue University" , 
-        "startDateYear" : 2016,
-        "fullDate" : "August 2012- May 2016", 
-        "location" : "West Lafayette, IN" , 
-        "industry" : "Education", 
-        "skills" : [] , 
-        "companyDescription" : "Undergraduate research was focused on plant cell wall research to increase biofuel plant yields." , 
-        "accomplishments" : ["Undergradaute Researcher: Carpita Lab (Feb 2013 - Apr 2016)", "Society for Advancement of Chicanos and Native Americans in Science: President (Jan 2013-May 2016)", "Purdue Student Union Board: Traditional Committee (August 2012-May 2016)", "Women in Science Program (August 2012-May 2016)", "Multicultural Science Program (August 2012-May 2016)", "President's Leadership Class (August 2012-May 2013)"]
-        }, 
-        {
-        "id": 2, 
-        "jobTitle" : "Process and Formulation Researcher", 
-        "companyName" : "Procter & Gamble" , 
-        "startDateYear" : 2016,
-        "fullDate" : "May 2016 – December 2019", 
-        "location" : "Cincinnati, OH" , 
-        "industry" : "Consumer Product Goods", 
-        "skills" : ["Consumer Product Testing", "Good Manufacturing Practice (GMP)", "Design of Experiments (DOE)", "Formulation Chemistry", " Stability Testing", "Drug Development", "Process Engineering", "Electronic Lab Notebooks", "Quality Assurance" ] , 
-        "companyDescription" : "P&G is a top global consumer product goods company, where I worked on brands such as Head & Shoulders and Vicks" , 
-        "accomplishments" : ["Led formal stability placements, managing cross-functional teams, and developing metrics for success while reducing scale-up timeline by 50% ", "Designed and executed DOX experimentation to deliver a product with 400% improved active performance while reducing cost of formula by 75%", "Utilized A/B testing and large-scale consumer studies to understand consumer needs and develop formulas that broke from baseline by +14", "Patents: 'Compositions having enhanced deposition of surfactant soluble antidandruff agents', 'Compositions with a thickening polymer', 'Compositions with anionic and cationic polymers'"]
-        }, 
+  "experiences": [
     {
-        "id": 3, 
-         "jobTitle" : "Product Research & Development Analyst", 
-         "companyName" : "Whole Foods Market" , 
-         "startDateYear" : 2020,
-         "fullDate" : "January 2020 – March 2021", 
-         "location" : "Austin, TX" , 
-         "industry" : "Consumer Product Goods", 
-         "skills" : ["Private Label", "Consumer Products", "Contract Manufacturing", "Grocery"] , 
-         "companyDescription" : "WFM is a grocery chain subsidiary of Amazon with private label brands setting sustainable grocery standards for consumers" , 
-        "accomplishments" : ["Led product development work for Beauty Care, Household, and Pet Care WFM private label brands", "Coordinated all development with contract manufacturing suppliers and key stakeholders, managing in-store US launches for approximately 75 products", "Introduced higher standards for body care formulation work, reducing post-launch rework by 60%"]
-    }, 
+      "id": 1,
+      "jobTitle": "Graduated with B.S. in Chemistry",
+      "companyName": "Purdue University",
+      "startDateYear": 2016,
+      "fullDate": "August 2012- May 2016",
+      "location": "West Lafayette, IN",
+      "industry": "Education",
+      "skills": [],
+      "companyDescription": "Undergraduate research was focused on plant cell wall research to increase biofuel plant yields.",
+      "accomplishments": [
+        "Undergradaute Researcher: Carpita Lab (Feb 2013 - Apr 2016)",
+        "Society for Advancement of Chicanos and Native Americans in Science: President (Jan 2013-May 2016)",
+        "Purdue Student Union Board: Traditional Committee (August 2012-May 2016)",
+        "Women in Science Program (August 2012-May 2016)",
+        "Multicultural Science Program (August 2012-May 2016)",
+        "President's Leadership Class (August 2012-May 2013)"
+      ]
+    },
     {
-        "id": 4, 
-         "jobTitle" : "Product Specialist", 
-         "companyName" : "Benitago" , 
-         "startDateYear" : 2021,
-         "fullDate" : "June 2021 – October 2021", 
-         "location" : "Remote- Kansas City, MO" , 
-         "industry" : "e-commerce", 
-         "skills" : ["Pricing Strategy", "E-Commerce", "Start-ups"] , 
-         "companyDescription" : "Benitago is an e-commerce startup specializing in using deep data analytics to grow stagnant CPG verticals on Amazon " , 
-        "accomplishments" : ["Established all workflows for Product Specialist team to bring structure to the development process, reducing the time to hand-off by 50%", "Managed all contract manufacturer and stakeholder relationships, negotiating pricing terms, scope, and deadlines, as well as developing final alignment documents to ensure quality records were kept of transactions"]
-    }, 
+      "id": 2,
+      "jobTitle": "Process and Formulation Researcher",
+      "companyName": "Procter & Gamble",
+      "startDateYear": 2016,
+      "fullDate": "May 2016 – December 2019",
+      "location": "Cincinnati, OH",
+      "industry": "Consumer Product Goods",
+      "skills": [
+        "Consumer Product Testing",
+        "Good Manufacturing Practice (GMP)",
+        "Design of Experiments (DOE)",
+        "Formulation Chemistry",
+        " Stability Testing",
+        "Drug Development",
+        "Process Engineering",
+        "Electronic Lab Notebooks",
+        "Quality Assurance"
+      ],
+      "companyDescription": "P&G is a top global consumer product goods company, where I worked on brands such as Head & Shoulders and Vicks",
+      "accomplishments": [
+        "Led formal stability placements, managing cross-functional teams, and developing metrics for success while reducing scale-up timeline by 50% ",
+        "Designed and executed DOX experimentation to deliver a product with 400% improved active performance while reducing cost of formula by 75%",
+        "Utilized A/B testing and large-scale consumer studies to understand consumer needs and develop formulas that broke from baseline by +14",
+        "Patents: 'Compositions having enhanced deposition of surfactant soluble antidandruff agents', 'Compositions with a thickening polymer', 'Compositions with anionic and cationic polymers'"
+      ]
+    },
     {
-        "id": 5, 
-         "jobTitle" : "Product Manager, In-App Activity", 
-         "companyName" : "FactoryFix" , 
-         "startDateYear" : 2021,
-         "fullDate" : "October 2021 – September 2022", 
-         "location" : "Remote- McAllen, TX" , 
-         "industry" : "Manufacturing Recruiting", 
-         "skills" : ["Go-to-Market Strategy", "Product Management", "Technology Roadmapping", "User Experience Testing", "A/B Testing"] , 
-         "companyDescription" : "FactoryFix is a B2B career platform connecting manufacturing companies to skilled workers for on-demand labor needs" , 
-        "accomplishments" : ["Oversaw product strategy for customer- facing business, focusing on increasing retention and in-app activity", "Increased customer to candidate SMS in-app communications sent by 133% in one month", "Optimized internal customer service experience to allocate 15% more of time-focused resources to customers", "Identified areas of opportunity in increasing user activity, leading to a 10% increase in activity in 1 month after implementation of proposed short-term roadmap", "Led an engineering team of 8 developers and a UX designer to improve activity on our ATS candidate pipeline, SMS messaging tool, talent search network, customer notifications, and dashboard features"]
-    }, 
+      "id": 3,
+      "jobTitle": "Product Research & Development Analyst",
+      "companyName": "Whole Foods Market",
+      "startDateYear": 2020,
+      "fullDate": "January 2020 – March 2021",
+      "location": "Austin, TX",
+      "industry": "Consumer Product Goods",
+      "skills": [
+        "Private Label",
+        "Consumer Products",
+        "Contract Manufacturing",
+        "Grocery"
+      ],
+      "companyDescription": "WFM is a grocery chain subsidiary of Amazon with private label brands setting sustainable grocery standards for consumers",
+      "accomplishments": [
+        "Led product development work for Beauty Care, Household, and Pet Care WFM private label brands",
+        "Coordinated all development with contract manufacturing suppliers and key stakeholders, managing in-store US launches for approximately 75 products",
+        "Introduced higher standards for body care formulation work, reducing post-launch rework by 60%"
+      ]
+    },
     {
-        "id": 6, 
-         "jobTitle" : "Software Engineering Student", 
-         "companyName" : "Flatiron School" , 
-         "startDateYear" : 2022,
-         "fullDate" : "December 2022- present", 
-         "location" : "Remote" , 
-         "industry" : "Education", 
-         "skills" : ["HTML", "CSS", "JavaScript", "React.js", "Material UI"] , 
-         "companyDescription" : "Software engineering bootcamp split into 5 phases, designed to give students the core skills needed to break into the tech industry." , 
-        "accomplishments" : ["Phase 1: Learned the fundamentals of JavaScript and how to create a single-page application (Core skills learned: CSS/ HTML, JS, APIs, Data types, and Async data retreival", "Phase 2: Learned about React, component heiarchy, and client- side routing (Core skills learned: React, Material UI"]
+      "id": 4,
+      "jobTitle": "Product Specialist",
+      "companyName": "Benitago",
+      "startDateYear": 2021,
+      "fullDate": "June 2021 – October 2021",
+      "location": "Remote- Kansas City, MO",
+      "industry": "e-commerce",
+      "skills": [
+        "Pricing Strategy",
+        "E-Commerce",
+        "Start-ups"
+      ],
+      "companyDescription": "Benitago is an e-commerce startup specializing in using deep data analytics to grow stagnant CPG verticals on Amazon ",
+      "accomplishments": [
+        "Established all workflows for Product Specialist team to bring structure to the development process, reducing the time to hand-off by 50%",
+        "Managed all contract manufacturer and stakeholder relationships, negotiating pricing terms, scope, and deadlines, as well as developing final alignment documents to ensure quality records were kept of transactions"
+      ]
+    },
+    {
+      "id": 5,
+      "jobTitle": "Product Manager, In-App Activity",
+      "companyName": "FactoryFix",
+      "startDateYear": 2021,
+      "fullDate": "October 2021 – September 2022",
+      "location": "Remote- McAllen, TX",
+      "industry": "Manufacturing Recruiting",
+      "skills": [
+        "Go-to-Market Strategy",
+        "Product Management",
+        "Technology Roadmapping",
+        "User Experience Testing",
+        "A/B Testing"
+      ],
+      "companyDescription": "FactoryFix is a B2B career platform connecting manufacturing companies to skilled workers for on-demand labor needs",
+      "accomplishments": [
+        "Oversaw product strategy for customer- facing business, focusing on increasing retention and in-app activity",
+        "Increased customer to candidate SMS in-app communications sent by 133% in one month",
+        "Optimized internal customer service experience to allocate 15% more of time-focused resources to customers",
+        "Identified areas of opportunity in increasing user activity, leading to a 10% increase in activity in 1 month after implementation of proposed short-term roadmap",
+        "Led an engineering team of 8 developers and a UX designer to improve activity on our ATS candidate pipeline, SMS messaging tool, talent search network, customer notifications, and dashboard features"
+      ]
+    },
+    {
+      "id": 6,
+      "jobTitle": "Software Engineering Student",
+      "companyName": "Flatiron School",
+      "startDateYear": 2022,
+      "fullDate": "December 2022- present",
+      "location": "Remote",
+      "industry": "Education",
+      "skills": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React.js",
+        "Material UI"
+      ],
+      "companyDescription": "Software engineering bootcamp split into 5 phases, designed to give students the core skills needed to break into the tech industry.",
+      "accomplishments": [
+        "Phase 1: Learned the fundamentals of JavaScript and how to create a single-page application (Core skills learned: CSS/ HTML, JS, APIs, Data types, and Async data retreival",
+        "Phase 2: Learned about React, component heiarchy, and client- side routing (Core skills learned: React, Material UI"
+      ]
     }
-    
-    ] ,
-    
-    "portfolios" : [
-        {
-            "id" : 1, 
-            "projectTitle" : "Personal Website" ,
-            "type" : "Software Development", 
-            "githubLink" : "https://github.com/RebekahFigueroa/personal-website", 
-            "pageLink": "", 
-            "projectDescription" : "Personal website that highlights my career accomplishments. This is my first project using Material UI and React.", 
-            "languagesUsed": ["React", "Material UI", "json.db Server"], 
-            "projectImage": "/images/portfolio_placeholder.jpg"
-        }, 
-        {
-            "id" : 2, 
-            "projectTitle" : "Virtual Manga Library" ,
-            "type" : "Software Development", 
-            "githubLink" : "https://github.com/RebekahFigueroa/Virtual-Manga-Library", 
-            "pageLink": "", 
-            "projectDescription" : "This is a digital library that pulls information from myAnimeList using the Jikan API to easily search and store content. ", 
-            "languagesUsed": ["JavaScript", "Jikan API", "json.db Server"], 
-            "projectImage": "/images/portfolio_VirtualMangaLibrary.png"
-        }, 
-        {
-            "id" : 3, 
-            "projectTitle" : "Placeholder Project" ,
-            "type" : "Software Development", 
-            "githubLink" : "https://github.com/RebekahFigueroa/", 
-            "pageLink": "", 
-            "projectDescription" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In efficitur neque sit amet eros accumsan consequat.  ", 
-            "languagesUsed": ["JavaScript", "json.db Server"], 
-            "projectImage": "/images/portfolio_placeholder.jpg"
-        }
-    ] ,
-
-    "blogs" : [
-        {
-            "id": 1, 
-            "blogTitle": "A Beginner’s Guide To APIs", 
-            "datePublished": "January 25th, 2023",
-            "blogImage": "/images/blog_APIs.png", 
-            "blogDescription":"I recently started working on my first personal project for my software engineering bootcamp. It required a lot of data, and I mean A LOT. I wanted to find a way to virtually store and view all of the books I had in my library, including data such as title, author, genre, etc. Sure, I could build it all out myself, but that would have taken forever. What’s the point of learning to program if you can’t even optimize? We want to make our lives easy!", 
-            "blogLink": "https://medium.com/@figueroarebekah/a-beginners-guide-to-apis-15fdf8fc48a1"
-        }, 
-        {
-            "id": 2, 
-            "blogTitle": "Placeholder Post", 
-            "datePublished": "March 23rd, 2023",
-            "blogImage": "/images/blog_placeholder.jpg", 
-            "blogDescription":" Lorem ipsum dolor sit amet, consectetur adipiscing elit. In efficitur neque sit amet eros accumsan consequat. Donec nisl odio, dictum a urna ultricies, vulputate vestibulum augue. Suspendisse non turpis dui. Pellentesque et metus quam. Maecenas et pellentesque turpis. Donec consectetur interdum est vitae porttitor. Cras consequat posuere urna non commodo.  Donec consectetur interdum est vitae porttitor. Cras consequat posuere urna non commodo.", 
-            "blogLink": "https://medium.com/@figueroarebekah/a-beginners-guide-to-apis-15fdf8fc48a1"
-        }, 
-        {
-            "id": 3, 
-            "blogTitle": "Placeholder Post", 
-            "datePublished": "March 23rd, 2023",
-            "blogImage": "/images/blog_placeholder.jpg", 
-            "blogDescription":" Lorem ipsum dolor sit amet, consectetur adipiscing elit. In efficitur neque sit amet eros accumsan consequat. Donec nisl odio, dictum a urna ultricies, vulputate vestibulum augue. Suspendisse non turpis dui. Pellentesque et metus quam. Maecenas et pellentesque turpis. Donec consectetur interdum est vitae porttitor. Cras consequat posuere urna non commodo.  Donec consectetur interdum est vitae porttitor. Cras consequat posuere urna non commodo.", 
-            "blogLink": "https://medium.com/@figueroarebekah/a-beginners-guide-to-apis-15fdf8fc48a1"
-        }
-    ] , 
-
-    "suggestions" : [
-        {
-            "id" : 1, 
-            "suggestionTitle" : "Tic tac toe", 
-            "suggestionDescription" : "A simple gameboard of tic tac toe that lets you play against another person", 
-            "numberOfLikes": 0
-        }, 
-        {
-            "id" : 2, 
-            "suggestionTitle" : "Grocery List", 
-            "suggestionDescription" : "Site that builds a grocery list for you based on recipes you give as inputs", 
-            "numberOfLikes": 7
-        }, 
-        {
-            "id" : 3, 
-            "suggestionTitle" : "How many miles is that cookie?", 
-            "suggestionDescription" : "A calorie to exercise converter that takes a food as an input and tells you how long you have to do a specific exercise to cancel out the calories",
-            "numberOfLikes": 2
-        }
-    ]
-
-
+  ],
+  "portfolios": [
+    {
+      "id": 1,
+      "projectTitle": "Personal Website",
+      "type": "Software Development",
+      "githubLink": "https://github.com/RebekahFigueroa/personal-website",
+      "pageLink": "",
+      "projectDescription": "Personal website that highlights my career accomplishments. This is my first project using Material UI and React.",
+      "languagesUsed": [
+        "React",
+        "Material UI",
+        "json.db Server"
+      ],
+      "projectImage": "/images/portfolio_personalWebsite.png"
+    },
+    {
+      "id": 2,
+      "projectTitle": "Virtual Manga Library",
+      "type": "Software Development",
+      "githubLink": "https://github.com/RebekahFigueroa/Virtual-Manga-Library",
+      "pageLink": "",
+      "projectDescription": "This is a digital library that pulls information from myAnimeList using the Jikan API to easily search and store content. ",
+      "languagesUsed": [
+        "JavaScript",
+        "Jikan API",
+        "json.db Server"
+      ],
+      "projectImage": "/images/portfolio_VirtualMangaLibrary.png"
+    },
+    {
+      "id": 3,
+      "projectTitle": "Placeholder Project",
+      "type": "Software Development",
+      "githubLink": "https://github.com/RebekahFigueroa/",
+      "pageLink": "",
+      "projectDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In efficitur neque sit amet eros accumsan consequat.  ",
+      "languagesUsed": [
+        "JavaScript",
+        "json.db Server"
+      ],
+      "projectImage": "/images/portfolio_placeholder.jpg"
+    }
+  ],
+  "blogs": [
+    {
+      "id": 1,
+      "blogTitle": "A Beginner’s Guide To APIs",
+      "datePublished": "January 25th, 2023",
+      "blogImage": "/images/blog_APIs.png",
+      "blogDescription": "I recently started working on my first personal project for my software engineering bootcamp. It required a lot of data, and I mean A LOT. I wanted to find a way to virtually store and view all of the books I had in my library, including data such as title, author, genre, etc. Sure, I could build it all out myself, but that would have taken forever. What’s the point of learning to program if you can’t even optimize? We want to make our lives easy!",
+      "blogLink": "https://medium.com/@figueroarebekah/a-beginners-guide-to-apis-15fdf8fc48a1"
+    },
+    {
+      "id": 2,
+      "blogTitle": "Placeholder Post",
+      "datePublished": "March 23rd, 2023",
+      "blogImage": "/images/blog_placeholder.jpg",
+      "blogDescription": " Lorem ipsum dolor sit amet, consectetur adipiscing elit. In efficitur neque sit amet eros accumsan consequat. Donec nisl odio, dictum a urna ultricies, vulputate vestibulum augue. Suspendisse non turpis dui. Pellentesque et metus quam. Maecenas et pellentesque turpis. Donec consectetur interdum est vitae porttitor. Cras consequat posuere urna non commodo.  Donec consectetur interdum est vitae porttitor. Cras consequat posuere urna non commodo.",
+      "blogLink": "https://medium.com/@figueroarebekah/a-beginners-guide-to-apis-15fdf8fc48a1"
+    },
+    {
+      "id": 3,
+      "blogTitle": "Placeholder Post",
+      "datePublished": "March 23rd, 2023",
+      "blogImage": "/images/blog_placeholder.jpg",
+      "blogDescription": " Lorem ipsum dolor sit amet, consectetur adipiscing elit. In efficitur neque sit amet eros accumsan consequat. Donec nisl odio, dictum a urna ultricies, vulputate vestibulum augue. Suspendisse non turpis dui. Pellentesque et metus quam. Maecenas et pellentesque turpis. Donec consectetur interdum est vitae porttitor. Cras consequat posuere urna non commodo.  Donec consectetur interdum est vitae porttitor. Cras consequat posuere urna non commodo.",
+      "blogLink": "https://medium.com/@figueroarebekah/a-beginners-guide-to-apis-15fdf8fc48a1"
+    }
+  ],
+  "suggestions": [
+    {
+      "id": 1,
+      "suggestionTitle": "Tic tac toe",
+      "suggestionDescription": "A simple gameboard of tic tac toe that lets you play against another person",
+      "numberOfLikes": 2
+    },
+    {
+      "id": 2,
+      "suggestionTitle": "Grocery List",
+      "suggestionDescription": "Site that builds a grocery list for you based on recipes you give as inputs",
+      "numberOfLikes": 5
+    },
+    {
+      "id": 3,
+      "suggestionTitle": "How many miles is that cookie?",
+      "suggestionDescription": "A calorie to exercise converter that takes a food as an input and tells you how long you have to do a specific exercise to cancel out the calories",
+      "numberOfLikes": 2
+    }
+  ]
 }

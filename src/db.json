@@ -95,6 +95,16 @@
             "projectDescription" : "This is a digital library that pulls information from myAnimeList using the Jikan API to easily search and store content. ", 
             "languagesUsed": ["JavaScript", "Jikan API", "json.db Server"], 
             "projectImage": "/images/portfolio_VirtualMangaLibrary.png"
+        }, 
+        {
+            "id" : 3, 
+            "projectTitle" : "Placeholder Project" ,
+            "type" : "Software Development", 
+            "githubLink" : "https://github.com/RebekahFigueroa/", 
+            "pageLink": "", 
+            "projectDescription" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In efficitur neque sit amet eros accumsan consequat.  ", 
+            "languagesUsed": ["JavaScript", "json.db Server"], 
+            "projectImage": "/images/portfolio_placeholder.jpg"
         }
     ] ,
 
@@ -106,6 +116,43 @@
             "blogImage": "/images/blog_APIs.png", 
             "blogDescription":"I recently started working on my first personal project for my software engineering bootcamp. It required a lot of data, and I mean A LOT. I wanted to find a way to virtually store and view all of the books I had in my library, including data such as title, author, genre, etc. Sure, I could build it all out myself, but that would have taken forever. What’s the point of learning to program if you can’t even optimize? We want to make our lives easy!", 
             "blogLink": "https://medium.com/@figueroarebekah/a-beginners-guide-to-apis-15fdf8fc48a1"
+        }, 
+        {
+            "id": 2, 
+            "blogTitle": "Placeholder Post", 
+            "datePublished": "March 23rd, 2023",
+            "blogImage": "/images/blog_placeholder.jpg", 
+            "blogDescription":" Lorem ipsum dolor sit amet, consectetur adipiscing elit. In efficitur neque sit amet eros accumsan consequat. Donec nisl odio, dictum a urna ultricies, vulputate vestibulum augue. Suspendisse non turpis dui. Pellentesque et metus quam. Maecenas et pellentesque turpis. Donec consectetur interdum est vitae porttitor. Cras consequat posuere urna non commodo.  Donec consectetur interdum est vitae porttitor. Cras consequat posuere urna non commodo.", 
+            "blogLink": "https://medium.com/@figueroarebekah/a-beginners-guide-to-apis-15fdf8fc48a1"
+        }, 
+        {
+            "id": 3, 
+            "blogTitle": "Placeholder Post", 
+            "datePublished": "March 23rd, 2023",
+            "blogImage": "/images/blog_placeholder.jpg", 
+            "blogDescription":" Lorem ipsum dolor sit amet, consectetur adipiscing elit. In efficitur neque sit amet eros accumsan consequat. Donec nisl odio, dictum a urna ultricies, vulputate vestibulum augue. Suspendisse non turpis dui. Pellentesque et metus quam. Maecenas et pellentesque turpis. Donec consectetur interdum est vitae porttitor. Cras consequat posuere urna non commodo.  Donec consectetur interdum est vitae porttitor. Cras consequat posuere urna non commodo.", 
+            "blogLink": "https://medium.com/@figueroarebekah/a-beginners-guide-to-apis-15fdf8fc48a1"
+        }
+    ] , 
+
+    "suggestions" : [
+        {
+            "id" : 1, 
+            "suggestionTitle" : "Tic tac toe", 
+            "suggestionDescription" : "A simple gameboard of tic tac toe that lets you play against another person", 
+            "numberOfLikes": 0
+        }, 
+        {
+            "id" : 2, 
+            "suggestionTitle" : "Grocery List", 
+            "suggestionDescription" : "Site that builds a grocery list for you based on recipes you give as inputs", 
+            "numberOfLikes": 7
+        }, 
+        {
+            "id" : 3, 
+            "suggestionTitle" : "How many miles is that cookie?", 
+            "suggestionDescription" : "A calorie to exercise converter that takes a food as an input and tells you how long you have to do a specific exercise to cancel out the calories",
+            "numberOfLikes": 2
         }
     ]
 

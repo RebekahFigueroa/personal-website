@@ -16,6 +16,7 @@ function NavBar() {
           <NavItem to="/experience" label="Experience" />
           <NavItem to="/portfolio" label="Portfolio" />
           <NavItem to="/blog" label="Blog" />
+          <NavItem to="/suggest-a-project" label="Suggest A Project" />
           <NavItem to="/contact-me" label="Contact" />
 
           <ResumeButton />

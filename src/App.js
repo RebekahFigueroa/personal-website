@@ -8,6 +8,7 @@ import Experience from "./Experience/Experience";
 import Home from "./Home/Home";
 import NavBar from "./NavBar/NavBar";
 import Portfolio from "./Portfolio/Portfolio";
+import SuggestAProject from "./SuggestAProject/SuggestAProject";
 
 const darkTheme = createTheme({
   palette: {
@@ -34,6 +35,9 @@ function App() {
             </Route>
             <Route path="/blog">
               <Blog />
+            </Route>
+            <Route path="/suggest-a-project">
+              <SuggestAProject />
             </Route>
             <Route path="/contact-me">
               <ContactMe />

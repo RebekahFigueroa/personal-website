@@ -1,7 +1,7 @@
 import { Box, Button, Typography } from "@mui/material";
 import React from "react";
 
-function ContactMe() {
+const ContactMe = () => {
   return (
     <>
       <Box
@@ -62,6 +62,6 @@ function ContactMe() {
       </Box>
     </>
   );
-}
+};
 
 export default ContactMe;

@@ -18,7 +18,6 @@ function NavBar() {
           <NavItem to="/blog" label="Blog" />
           <NavItem to="/suggest-a-project" label="Suggest A Project" />
           <NavItem to="/contact-me" label="Contact" />
-
           <ResumeButton />
         </Stack>
       </Toolbar>

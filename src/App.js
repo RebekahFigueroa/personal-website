@@ -42,6 +42,7 @@ function App() {
             <Route path="/contact-me">
               <ContactMe />
             </Route>
+
             <Redirect from="/" to="/home" />
           </Switch>
         </Box>

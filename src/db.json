@@ -206,7 +206,7 @@
       "id": 1,
       "suggestionTitle": "Tic tac toe",
       "suggestionDescription": "A simple gameboard of tic tac toe that lets you play against another person",
-      "numberOfLikes": 2
+      "numberOfLikes": 1
     },
     {
       "id": 2,
@@ -219,6 +219,12 @@
       "suggestionTitle": "How many miles is that cookie?",
       "suggestionDescription": "A calorie to exercise converter that takes a food as an input and tells you how long you have to do a specific exercise to cancel out the calories",
       "numberOfLikes": 2
+    },
+    {
+      "suggestionTitle": "Dog Park Tracker",
+      "suggestionDescription": "Create a site that lets you track dog parks in your area and their common occupancy. Let others add when they will be at the dog park so people can visit together. ",
+      "numberOfLikes": 3,
+      "id": 4
     }
   ]
 }

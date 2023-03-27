@@ -1,7 +1,7 @@
 import { Grid, List } from "@mui/material";
 import React, { useEffect, useState } from "react";
 import SuggestAProjectForm from "./SuggestAProjectForm";
-import SuggestAProjectList from "./SuggestAProjectList";
+import SuggestAProjectListItem from "./SuggestAProjectListItem";
 
 const SuggestAProject = () => {
   const [suggestionsData, setSuggestionsData] = useState([]);
@@ -22,12 +22,12 @@ const SuggestAProject = () => {
     >
       <Grid item xs={1}></Grid>
       <Grid item xs={5}>
-        <SuggestAProjectForm />
+        <SuggestAProjectForm setSuggestionsData={setSuggestionsData} />
       </Grid>
       <Grid item xs={5} sx={{ display: "flex", alignItems: "center" }}>
         <List>
           {suggestionsData.map((suggestion) => (
-            <SuggestAProjectList key={suggestion.id} {...suggestion} />
+            <SuggestAProjectListItem key={suggestion.id} {...suggestion} />
           ))}
         </List>
       </Grid>

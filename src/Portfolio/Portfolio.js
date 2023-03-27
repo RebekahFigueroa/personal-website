@@ -1,4 +1,4 @@
-import { Box, Button, Typography } from "@mui/material";
+import { Box, Typography } from "@mui/material";
 import React, { useEffect, useState } from "react";
 import PortfolioCards from "./PortfolioCards";
 
@@ -30,7 +30,7 @@ const Portfolio = () => {
           Portfolio
         </Typography>
       </Box>
-      <Box
+      {/* <Box
         sx={{
           display: "flex",
           alignItems: "center",
@@ -74,7 +74,7 @@ const Portfolio = () => {
         >
           Formulation Development
         </Button>
-      </Box>
+      </Box> */}
 
       <Box
         sx={{

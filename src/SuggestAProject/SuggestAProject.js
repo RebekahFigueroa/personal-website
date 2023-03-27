@@ -1,4 +1,4 @@
-import { Grid, List } from "@mui/material";
+import { Grid, List, Typography } from "@mui/material";
 import React, { useEffect, useState } from "react";
 import SuggestAProjectForm from "./SuggestAProjectForm";
 import SuggestAProjectListItem from "./SuggestAProjectListItem";
@@ -15,16 +15,24 @@ const SuggestAProject = () => {
     fetchSuggestions();
   }, []);
   return (
-    <Grid
-      container
-      spacing={4}
-      sx={{ minHeight: "100%", display: "flex", alignItems: "center" }}
-    >
+    <Grid container spacing={3} sx={{ minHeight: "100%" }}>
+      <Grid item xs={12}>
+        <Typography
+          variant="h1"
+          sx={{
+            textAlign: "center",
+            marginBottom: "0",
+            marginTop: "2rem",
+          }}
+        >
+          Suggest A Project
+        </Typography>
+      </Grid>
       <Grid item xs={1}></Grid>
       <Grid item xs={5}>
         <SuggestAProjectForm setSuggestionsData={setSuggestionsData} />
       </Grid>
-      <Grid item xs={5} sx={{ display: "flex", alignItems: "center" }}>
+      <Grid item xs={5}>
         <List>
           {suggestionsData.map((suggestion) => (
             <SuggestAProjectListItem key={suggestion.id} {...suggestion} />

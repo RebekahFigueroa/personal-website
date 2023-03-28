@@ -1,7 +1,7 @@
 import { Box, Button, Grid, Typography } from "@mui/material";
 import React from "react";
 
-import image from "./placeholder-photo.png";
+import image from "./headshot.png";
 
 function Home() {
   return (
@@ -27,10 +27,26 @@ function Home() {
             marginTop: "2rem",
           }}
         >
-          Formulation chemist, product manager, and now software engineer. I am
-          passionate about solving meaningful problems, developing products that
-          delight consumers, and making a positive social impact on the
-          communities around me.
+          As a software engineer with experience in product management and
+          formulation chemistry, I bring a unique perspective to problem-solving
+          and innovation. My technical skills in programming and development,
+          combined with my knowledge of chemistry and consumer markets/
+          interactions, allow me to approach challenges with a well-rounded and
+          holistic approach.
+        </Typography>
+
+        <Typography
+          sx={{
+            fontSize: "1rem",
+            color: "text.secondary",
+            marginRight: "5rem",
+            marginTop: "2rem",
+          }}
+        >
+          I am excited to continue exploring the intersection of technology and
+          science, and I am eager to apply my skills and knowledge to new
+          challenges in the field of software engineering and product
+          development.
         </Typography>
         <Box sx={{ marginTop: "3rem" }}>
           <Button

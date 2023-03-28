@@ -20,7 +20,6 @@ const SuggestAProjectForm = ({ setSuggestionsData }) => {
     })
       .then((response) => response.json())
       .then((suggestion) => {
-        console.log(suggestion);
         setSuggestionsData((suggestions) => [suggestion, ...suggestions]);
         setSuggestionTitle("");
         setSuggestionDescription("");

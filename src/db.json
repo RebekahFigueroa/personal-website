@@ -186,11 +186,11 @@
     },
     {
       "id": 2,
-      "blogTitle": "Placeholder Post",
-      "datePublished": "March 23rd, 2023",
-      "blogImage": "/images/blog_placeholder.jpg",
-      "blogDescription": " Lorem ipsum dolor sit amet, consectetur adipiscing elit. In efficitur neque sit amet eros accumsan consequat. Donec nisl odio, dictum a urna ultricies, vulputate vestibulum augue. Suspendisse non turpis dui. Pellentesque et metus quam. Maecenas et pellentesque turpis. Donec consectetur interdum est vitae porttitor. Cras consequat posuere urna non commodo.  Donec consectetur interdum est vitae porttitor. Cras consequat posuere urna non commodo.",
-      "blogLink": "https://medium.com/@figueroarebekah/a-beginners-guide-to-apis-15fdf8fc48a1"
+      "blogTitle": "Using Material UI And React To Build A Timeline",
+      "datePublished": "March 28th, 2023",
+      "blogImage": "/images/blog_timeline.png",
+      "blogDescription": "  Building a timeline component in vanilla CSS is usually a big pain in the neck as it requires a lot of hacky CSS and can take hours of trial and error to figure out. However, using React and the new Timeline component from Material UI’s Lab provides an elegant solution to building gorgeous and interactive timelines to integrate into your apps.",
+      "blogLink": "https://medium.com/@figueroarebekah/using-material-ui-and-react-to-build-a-timeline-efd944601560"
     },
     {
       "id": 3,

@@ -34,7 +34,11 @@ Currently under development.
 
 # File Structure/ Components
 
+![Project File Structure](/public/images/personalWebsiteFileStructure.png)
+
 # Demo
+
+![Project Demo](/public/images/personalWebsiteGifDemo.gif)
 
 # Features
 

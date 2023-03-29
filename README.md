@@ -86,3 +86,7 @@ Currently under development.
 - Update color/ font styling to be more in line with my personal style
 - Add pagination for cards
 - Clean up visual structure of blog cards
+
+# Supplemental links
+
+Using Material UI And React To Build A Timeline (https://medium.com/@figueroarebekah/using-material-ui-and-react-to-build-a-timeline-efd944601560)

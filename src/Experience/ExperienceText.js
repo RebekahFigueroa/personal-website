@@ -1,7 +1,7 @@
 import { Grid, Typography } from "@mui/material";
 import React from "react";
 
-function ExperienceText() {
+const ExperienceText = () => {
   return (
     <Grid>
       <Typography sx={{ fontSize: "7rem" }}>About Me</Typography>
@@ -30,6 +30,6 @@ function ExperienceText() {
       </Typography>
     </Grid>
   );
-}
+};
 
 export default ExperienceText;

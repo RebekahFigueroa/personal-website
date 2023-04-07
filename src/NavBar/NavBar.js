@@ -4,7 +4,7 @@ import HomeButton from "./HomeButton";
 import NavItem from "./NavItem";
 import ResumeButton from "./ResumeButton";
 
-function NavBar() {
+const NavBar = () => {
   return (
     <AppBar position="sticky">
       <Toolbar>
@@ -23,6 +23,6 @@ function NavBar() {
       </Toolbar>
     </AppBar>
   );
-}
+};
 
 export default NavBar;

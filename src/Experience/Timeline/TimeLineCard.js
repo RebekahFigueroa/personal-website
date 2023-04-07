@@ -7,9 +7,9 @@ import TimelineOppositeContent from "@mui/lab/TimelineOppositeContent";
 import TimelineSeparator from "@mui/lab/TimelineSeparator";
 import { List, ListItem } from "@mui/material";
 import Typography from "@mui/material/Typography";
-import React from "react";
+import React, { useState } from "react";
 
-function TimelineCard({
+const TimelineCard = ({
   startDateYear,
   jobTitle,
   companyName,
@@ -17,14 +17,14 @@ function TimelineCard({
   location,
   companyDescription,
   accomplishments,
-}) {
-  const [isExpanded, setIsExpanded] = React.useState(false);
+}) => {
+  const [isExpanded, setIsExpanded] = useState(false);
 
   const handleExpandClick = () => {
     setIsExpanded(!isExpanded);
   };
 
-  if (isExpanded === true) {
+  if (isExpanded) {
     return (
       <TimelineItem sx={{ cursor: "pointer" }} onClick={handleExpandClick}>
         <TimelineOppositeContent
@@ -91,6 +91,6 @@ function TimelineCard({
       </TimelineItem>
     );
   }
-}
+};
 
 export default TimelineCard;

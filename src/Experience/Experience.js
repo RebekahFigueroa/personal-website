@@ -3,7 +3,7 @@ import React from "react";
 import ExperienceText from "./ExperienceText";
 import TimelineStructure from "./Timeline/TimelineStructure";
 
-function Experience() {
+const Experience = () => {
   return (
     <Grid
       container
@@ -19,6 +19,6 @@ function Experience() {
       </Grid>
     </Grid>
   );
-}
+};
 
 export default Experience;

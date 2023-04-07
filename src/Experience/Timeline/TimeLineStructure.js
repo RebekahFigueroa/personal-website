@@ -2,7 +2,7 @@ import Timeline from "@mui/lab/Timeline";
 import React, { useEffect, useState } from "react";
 import TimelineCard from "./TimelineCard";
 
-function TimelineStructure() {
+const TimelineStructure = () => {
   const [experienceData, setExperienceData] = useState([]);
 
   useEffect(() => {
@@ -13,6 +13,7 @@ function TimelineStructure() {
     };
     fetchExperience();
   }, []);
+
   return (
     <Timeline position="alternate">
       {experienceData.map((experience) => (
@@ -20,6 +21,6 @@ function TimelineStructure() {
       ))}
     </Timeline>
   );
-}
+};
 
 export default TimelineStructure;

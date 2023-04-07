@@ -1,5 +1,5 @@
 import { Box, CssBaseline } from "@mui/material";
-import { createTheme, ThemeProvider } from "@mui/material/styles";
+import { ThemeProvider, createTheme } from "@mui/material/styles";
 import React from "react";
 import { BrowserRouter, Redirect, Route, Switch } from "react-router-dom";
 import Blog from "./Blog/Blog";
@@ -16,7 +16,7 @@ const darkTheme = createTheme({
   },
 });
 
-function App() {
+const App = () => {
   return (
     <ThemeProvider theme={darkTheme}>
       <CssBaseline />
@@ -49,6 +49,6 @@ function App() {
       </BrowserRouter>
     </ThemeProvider>
   );
-}
+};
 
 export default App;

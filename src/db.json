@@ -206,7 +206,7 @@
       "id": 1,
       "suggestionTitle": "Tic tac toe",
       "suggestionDescription": "A simple gameboard of tic tac toe that lets you play against another person",
-      "numberOfLikes": 1
+      "numberOfLikes": 3
     },
     {
       "id": 2,
@@ -225,6 +225,12 @@
       "suggestionDescription": "Create a site that lets you track dog parks in your area and their common occupancy. Let others add when they will be at the dog park so people can visit together. ",
       "numberOfLikes": 3,
       "id": 4
+    },
+    {
+      "suggestionTitle": "Test",
+      "suggestionDescription": "Test ",
+      "numberOfLikes": 4,
+      "id": 5
     }
   ]
 }

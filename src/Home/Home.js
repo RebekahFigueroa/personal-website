@@ -3,7 +3,7 @@ import React from "react";
 
 import image from "./headshot.png";
 
-function Home() {
+const Home = () => {
   return (
     <Grid
       container
@@ -93,6 +93,6 @@ function Home() {
       </Grid>
     </Grid>
   );
-}
+};
 
 export default Home;
